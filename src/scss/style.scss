@@ -1,8 +1,9 @@
 @use "./main";
 @use "./header";
-@use "./body"
+@use "./body";
 @use "./footer";
 @use "./color";
+
 html,
 body {
   margin: 0;
