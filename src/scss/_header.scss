@@ -66,9 +66,10 @@ header {
         align-items: center;
         gap: 0.5rem;
 
-        .search {
-          display: flex;
-          gap: 0;
+        div.search {
+        display: flex;
+        align-items: stretch;
+        gap: 0;
 
           input {
             border-top-left-radius: 1rem;
@@ -88,6 +89,13 @@ header {
             background-color:var(--gray-color-100);
             cursor: pointer;
           }
+
+         .search input:focus-visible,
+         button:focus-visible {
+        outline: 2px solid var(--primary-color);
+        outline-offset: 3px;
+      }
+
         }
 
         > button {
