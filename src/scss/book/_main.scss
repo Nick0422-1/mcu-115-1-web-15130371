@@ -24,7 +24,7 @@ section {
     padding-right: var(--container-padding-right);
 
     > div {
-      outline: solid 1px red;
+     
 
       &[id] {
   scroll-margin-top: var(--book-header-offset);
@@ -35,6 +35,7 @@ section {
       }
 
       &.page {
+        outline: solid 1px red;
         min-height: 700px;
       }
     }
