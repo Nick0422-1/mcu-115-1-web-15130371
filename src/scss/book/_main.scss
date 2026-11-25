@@ -18,6 +18,8 @@ section {
     }
   }
   main.wrapper {
+    box-sizing: border-box;
+    width: 100%;
     max-width: 90vw;
     margin: 0 auto;
     padding-left: var(--container-padding-left);
@@ -31,7 +33,7 @@ section {
 }
 
       &.home {
-        height: 100vh;
+        min-height: calc(100vh - var(--book-header-offset, 5rem));
       }
 
       &.page {
